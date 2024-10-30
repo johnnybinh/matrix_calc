@@ -4,10 +4,6 @@ import numpy as np
 
 st.title("Matrix Calculator")
 
-st.set_page_config(
-    initial_sidebar_state="collapsed", page_title="HCMIU - Matrix Calculator"
-)
-
 
 with st.form("Matrix calculator"):
     st.title("Matrix calculator")
