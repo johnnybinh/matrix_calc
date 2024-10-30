@@ -12,7 +12,7 @@ option = st.selectbox("Chose page to navigate to", ("Calulator", "RREF", "Invers
 
 if st.button("Go"):
     if option == "Calculator":
-        st.switch_page("pages/matrix_calculator.py")
+        st.switch_page("matrix_calculator.py")
     elif option == "RREF":
         st.switch_page("pages/rref.py")
     elif option == "Inverse":
