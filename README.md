@@ -8,6 +8,7 @@ have conda installed. Please refer to [Miniconda Document](https://docs.anaconda
 
 ```
 $ conda activate ./.conda
+$ conda install pip
 ```
 
 2. Install Requirement
