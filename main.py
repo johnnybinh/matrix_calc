@@ -8,11 +8,11 @@ st.set_page_config(
 st.title("Matrix Calculator Project")
 st.text("Open the sidebar to navigate, or chose one of the option bellow")
 
-option = st.selectbox("Chose page to navigate to", ("Calulator", "RREF", "Inverse"))
+option = st.selectbox("Chose page to navigate to", ("Calculator", "RREF", "Inverse"))
 
 if st.button("Go"):
     if option == "Calculator":
-        st.switch_page("matrix_calculator.py")
+        st.switch_page("pages/matrix_calculator.py")
     elif option == "RREF":
         st.switch_page("pages/rref.py")
     elif option == "Inverse":
