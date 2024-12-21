@@ -1,0 +1,12 @@
+[project]
+name = "matrix-calc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.0",
+    "pandas>=2.2.3",
+    "streamlit>=1.41.1",
+    "sympy>=1.13.3",
+]
